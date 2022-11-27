@@ -11,7 +11,7 @@ let newsAccordion = document.getElementById('newsAccordion');
 // Create an ajax get request
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', `https://newsapi.org/v2/everything?q=education&from=2022-10-27&sortBy=publishedAt&apiKey=d64f558a3ec24795aa2c61c9addc4c4c`, true);
+xhr.open('GET', `https://pragati.onrender.com/news`, true);
 
 // What to do when response is ready
 xhr.onload = function () {
