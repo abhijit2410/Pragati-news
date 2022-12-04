@@ -11,7 +11,7 @@ let newsAccordion = document.getElementById('newsAccordion');
 // Create an ajax get request
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', `https://pragati.onrender.com/news`, true);
+xhr.open('GET', `http://3.110.3.242:80/news`, true);
 
 // What to do when response is ready
 xhr.onload = function () {
