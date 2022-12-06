@@ -11,7 +11,7 @@ let newsAccordion = document.getElementById('newsAccordion');
 // Create an ajax get request
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', `https://newsapi.org/v2/everything?q=education&from=2022-11-06&sortBy=publishedAt&apiKey=da9d1c5a4e954cdfbb770d05c4a571fc`, true);
+xhr.open('GET', `https://news-api-three-theta.vercel.app/news`, true);
 
 // What to do when response is ready
 xhr.onload = function () {
